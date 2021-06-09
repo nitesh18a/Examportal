@@ -1,0 +1,361 @@
+/* DASHBOARD CSS */
+@media (max-width: 767px) {
+    #hero {
+        height: auto;
+        padding: 100px 0 60px 0;
+    }
+    #hero .container {
+        height: auto !important;
+    }
+    #hero .intro-img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    #hero .intro-info {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    #hero .intro-info {
+        text-align: center;
+        padding-top: 40px;
+    }
+}
+
+#hero .intro-info h2 {
+    color: #413e66;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#hero .intro-info h2 span {
+    color: #1bb1dc;
+}
+
+@media (max-width: 767px) {
+    #hero .intro-info h2 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+}
+.section-bg {
+    background: #f5f8fd;
+}
+
+
+.btn-get-started, #hero .intro-info .btn-services {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 40px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1bb1dc;
+    color: #fff;
+}
+
+
+.btn-get-started:hover, #hero .intro-info .btn-services:hover {
+    background:#1bb1d0;
+    font-size:17px;
+
+}
+section {
+    overflow: hidden;
+}
+img {
+    border-radius: 4px;
+    margin-top:15%;
+    max-width: 500px;
+
+}
+
+h1{
+    color: #413e66;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top:-1%;
+    margin-bottom:1%;
+    text-align: center;
+    padding: auto;
+}
+
+
+.wrapper {
+    background: linear-gradient(
+        to bottom, 
+        #05d7fc 0%  , 
+        #02b38c 30%, 
+        #ffffff 20%, 
+        #ffffff 60%
+    );
+    box-shadow: 0 4px 8px 0 rgba(24, 2, 2, 0.24);
+    transition: 0.5s;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding:2%;
+    align-content: center;
+    margin-top:10%;
+    margin-bottom:10%;
+        
+}
+.first_one{
+    background:#e8e4d5;
+    max-width:1300px;
+    margin:auto;
+    margin-top:3%;
+
+}
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    color: navyblue;
+    font-weight:700
+
+}
+.cards{
+    background:white;
+
+}
+  
+
+  
+
+
+/* EXAM PAGE CSS */
+* {
+    /* font: 16px 'Source Sans Pro', sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+.a  {
+    margin: 0px !important;
+    padding: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    background-color:  #f5f8fd;
+}
+.nameid {
+    background: skyblue;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.header_style {
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: rgb(116, 181, 180);
+    color: white;
+}
+.cr {
+    border-bottom: solid black 0.5px;
+    text-align: left;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.cr2 {
+    text-align: left;
+    padding: 10px;
+}
+.cr2 span {
+    margin-top: 10px;
+}
+.cr2 span {
+    height: 20px;
+    margin-left: 15px;
+}
+.section {
+    padding: 10px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(74, 156, 189)
+}
+.cr3 span {
+    margin-right: 10px;
+}
+.bton {
+    margin-top: 12%;
+    float: left;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+.answer {
+    margin-left: 0px;
+    z-index: 1000;
+
+}
+.label1 {
+    width: 55%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10px;
+}
+.label1:hover {
+    background-color: rgb(219, 185, 184);
+    border-radius: 5px;
+    z-index: 0;
+}
+.timer {
+    background-color: rgb(236, 240, 199);
+    padding: 10px;
+    border-radius: 10px;
+}
+.row3 {
+    background-color: white;
+    max-height: 330px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 40px;
+}
+.line1 {
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    margin-left: 0px;
+}
+.question {
+    border-left: 5px solid #4441F0;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.question span {
+  font-weight: bold !important;
+}
+.line3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.line4 {
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 17px;
+    max-height: 100px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+
+.sidebar {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(171, 216, 217);
+    transition: 0.02s;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-right: 10px;
+}
+
+.submitbutton {
+    position: absolute;
+    bottom: 10px; 
+}
+.ocbuttons {
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    z-index: 1;
+    font-size: 110%;
+    font-weight: bolder;
+    color: red !important;
+    text-decoration: none;
+}
+#main {
+   /* transition: margin-right .5s;*/
+    height: auto;
+    background-color: #fff0e9 ;
+    border-radius: 2px;
+}
+#sidebarid {
+    display: none;
+    animation-delay: 2s;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+.allwords div  div div{
+  padding: 8px;
+}
+.tabletitle {
+  background-color: purple;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px ;
+}
+.tabelrows{
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.tabelrows:hover{
+  background-color: rgb(162, 164, 166);
+  transform: scale(1.03);
+  animation-delay: 0.2s;
+}
+.tabelrows .col-xs-4{
+  text-align: right !important;
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width: 550px) {
+    #main {
+        height: auto;
+    }
+    .sidebar {
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    .bton {
+        margin-top: 20px;
+    }
+    nav b {
+        font-size: 14px;
+    }
+}
+@media screen and (max-height: 550px) {
+    #main {
+        height: auto;
+    }
+    .sidebar {
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    .bton {
+        margin-top: 20px;
+    }
+    nav b {
+        font-size: 14px;
+    }
+}
+
